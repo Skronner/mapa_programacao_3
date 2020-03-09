@@ -5,8 +5,6 @@
  */
 package colecaorevistasbrunoton;
 
-import java.time.LocalDate;
-
 /**
  *
  * @author Bruno

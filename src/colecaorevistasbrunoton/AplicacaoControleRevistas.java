@@ -302,7 +302,7 @@ public class AplicacaoControleRevistas {
                 System.out.print("\nSelecione a revista será emprestada:");                
                 listar(revistas, "Revistas");
                 int revistaIndex = 999;
-                while ( revistaIndex < 0 || revistaIndex >= amigos.size()) {
+                while ( revistaIndex < 0 || revistaIndex >= revistas.size()) {
                     revistaIndex = in.nextInt();
                     in.nextLine();
                 }
@@ -367,7 +367,7 @@ public class AplicacaoControleRevistas {
         revistas.add(new Revista(colecoes.get(1),2003,10,caixas.get(1)));
         revistas.add(new Revista(colecoes.get(4),1994,2,caixas.get(2)));
         emprestimos.add(new Emprestimo(amigos.get(0),revistas.get(0),"02/02/2020","05/04/2020"));
-        emprestimos.add(new Emprestimo(amigos.get(0),revistas.get(0),"02/02/2020","05/04/2020"));
+        emprestimos.add(new Emprestimo(amigos.get(1),revistas.get(1),"08/03/2020","01/05/2020"));
     }
 
 }

@@ -29,7 +29,7 @@ public class Amigo {
 
     @Override
     public String toString() {
-        return nome + ", tel. " + telefone + ", " + localAmigo + '}';
+        return nome + ", tel. " + telefone + ", " + localAmigo;
     }
     
     
